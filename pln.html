@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Internship Certificate - PLN
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= CERTIFICATE DETAIL ================= -->
+
+    <section class="certificate-detail">
+
+        <!-- BACK BUTTON -->
+
+        <a href="index.html#certificate" class="back-btn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Kembali
+
+        </a>
+
+        <!-- TITLE -->
+
+        <h1>
+            Internship Certificate
+        </h1>
+
+        <!-- IMAGE -->
+
+        <div class="certificate-full-image">
+
+            <img src="sertifikat-pln.png"
+            alt="PLN Certificate">
+
+        </div>
+<!-- ================= MAGANG GALLERY ================= -->
+
+<h2 class="gallery-title">
+    Internship Documentation
+</h2>
+
+<div class="carousel-container">
+
+    <button class="carousel-btn prev"
+    onclick="slideLeft()">
+        ‹
+    </button>
+
+    <div class="carousel-track" id="carouselTrack">
+
+        <div class="carousel-card">
+            <img src="pln1.jpg" alt="">
+        </div>
+
+        <div class="carousel-card">
+            <img src="pln2.jpg" alt="">
+        </div>
+
+        <div class="carousel-card">
+            <img src="pln3.jpg" alt="">
+        </div>
+
+        <div class="carousel-card">
+            <img src="pln4.jpg" alt="">
+        
+        </div class="carousel-card">
+            <img src="pln5.jpg" alt="">
+
+    </div>
+
+    <button class="carousel-btn next"
+    onclick="slideRight()">
+        ›
+    </button>
+
+</div>
+        <!-- DESCRIPTION -->
+
+        <div class="certificate-description">
+
+            <p>
+                Sertifikat magang dari PT PLN Persero
+                sebagai Electrical Technician Intern.
+            </p>
+
+            <p>
+                Selama kegiatan magang, mempelajari
+                dasar instalasi listrik, troubleshooting,
+                maintenance perangkat, dan pengenalan
+                sistem kelistrikan di lingkungan kerja.
+            </p>
+
+            <p>
+                Pengalaman ini membantu meningkatkan
+                kemampuan teknis, problem solving,
+                teamwork, dan adaptasi di dunia industri.
+            </p>
+
+        </div>
+
+    </section>
+<script>
+
+const track =
+document.getElementById("carouselTrack");
+
+function slideLeft(){
+    track.scrollBy({
+        left:-450,
+        behavior:"smooth"
+    });
+}
+
+function slideRight(){
+    track.scrollBy({
+        left:450,
+        behavior:"smooth"
+    });
+}
+
+</script>
+</body>
+
+</html>
